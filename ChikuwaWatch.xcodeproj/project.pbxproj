@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84AFBDB119655066003266EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBDB019655066003266EB /* AppDelegate.swift */; };
+		84AFBDB319655066003266EB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBDB219655066003266EB /* MasterViewController.swift */; };
+		84AFBDB519655066003266EB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBDB419655066003266EB /* DetailViewController.swift */; };
+		84AFBDB819655066003266EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AFBDB619655066003266EB /* Main.storyboard */; };
+		84AFBDBA19655066003266EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AFBDB919655066003266EB /* Images.xcassets */; };
+		84AFBDC619655066003266EB /* ChikuwaWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBDC519655066003266EB /* ChikuwaWatchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84AFBDC019655066003266EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84AFBDA319655066003266EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84AFBDAA19655066003266EB;
+			remoteInfo = ChikuwaWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84AFBDAB19655066003266EB /* ChikuwaWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChikuwaWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AFBDAF19655066003266EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AFBDB019655066003266EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84AFBDB219655066003266EB /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		84AFBDB419655066003266EB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		84AFBDB719655066003266EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84AFBDB919655066003266EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84AFBDBF19655066003266EB /* ChikuwaWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChikuwaWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AFBDC419655066003266EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AFBDC519655066003266EB /* ChikuwaWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChikuwaWatchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84AFBDA819655066003266EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AFBDBC19655066003266EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84AFBDA219655065003266EB = {
+			isa = PBXGroup;
+			children = (
+				84AFBDAD19655066003266EB /* ChikuwaWatch */,
+				84AFBDC219655066003266EB /* ChikuwaWatchTests */,
+				84AFBDAC19655066003266EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84AFBDAC19655066003266EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84AFBDAB19655066003266EB /* ChikuwaWatch.app */,
+				84AFBDBF19655066003266EB /* ChikuwaWatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84AFBDAD19655066003266EB /* ChikuwaWatch */ = {
+			isa = PBXGroup;
+			children = (
+				84AFBDB019655066003266EB /* AppDelegate.swift */,
+				84AFBDB219655066003266EB /* MasterViewController.swift */,
+				84AFBDB419655066003266EB /* DetailViewController.swift */,
+				84AFBDB619655066003266EB /* Main.storyboard */,
+				84AFBDB919655066003266EB /* Images.xcassets */,
+				84AFBDAE19655066003266EB /* Supporting Files */,
+			);
+			path = ChikuwaWatch;
+			sourceTree = "<group>";
+		};
+		84AFBDAE19655066003266EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84AFBDAF19655066003266EB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84AFBDC219655066003266EB /* ChikuwaWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				84AFBDC519655066003266EB /* ChikuwaWatchTests.swift */,
+				84AFBDC319655066003266EB /* Supporting Files */,
+			);
+			path = ChikuwaWatchTests;
+			sourceTree = "<group>";
+		};
+		84AFBDC319655066003266EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84AFBDC419655066003266EB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84AFBDAA19655066003266EB /* ChikuwaWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AFBDC919655066003266EB /* Build configuration list for PBXNativeTarget "ChikuwaWatch" */;
+			buildPhases = (
+				84AFBDA719655066003266EB /* Sources */,
+				84AFBDA819655066003266EB /* Frameworks */,
+				84AFBDA919655066003266EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChikuwaWatch;
+			productName = ChikuwaWatch;
+			productReference = 84AFBDAB19655066003266EB /* ChikuwaWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84AFBDBE19655066003266EB /* ChikuwaWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AFBDCC19655066003266EB /* Build configuration list for PBXNativeTarget "ChikuwaWatchTests" */;
+			buildPhases = (
+				84AFBDBB19655066003266EB /* Sources */,
+				84AFBDBC19655066003266EB /* Frameworks */,
+				84AFBDBD19655066003266EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84AFBDC119655066003266EB /* PBXTargetDependency */,
+			);
+			name = ChikuwaWatchTests;
+			productName = ChikuwaWatchTests;
+			productReference = 84AFBDBF19655066003266EB /* ChikuwaWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84AFBDA319655066003266EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = ryo.tezuka;
+				TargetAttributes = {
+					84AFBDAA19655066003266EB = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					84AFBDBE19655066003266EB = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 84AFBDAA19655066003266EB;
+					};
+				};
+			};
+			buildConfigurationList = 84AFBDA619655066003266EB /* Build configuration list for PBXProject "ChikuwaWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84AFBDA219655065003266EB;
+			productRefGroup = 84AFBDAC19655066003266EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84AFBDAA19655066003266EB /* ChikuwaWatch */,
+				84AFBDBE19655066003266EB /* ChikuwaWatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84AFBDA919655066003266EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AFBDB819655066003266EB /* Main.storyboard in Resources */,
+				84AFBDBA19655066003266EB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AFBDBD19655066003266EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84AFBDA719655066003266EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AFBDB519655066003266EB /* DetailViewController.swift in Sources */,
+				84AFBDB319655066003266EB /* MasterViewController.swift in Sources */,
+				84AFBDB119655066003266EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AFBDBB19655066003266EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AFBDC619655066003266EB /* ChikuwaWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84AFBDC119655066003266EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84AFBDAA19655066003266EB /* ChikuwaWatch */;
+			targetProxy = 84AFBDC019655066003266EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84AFBDB619655066003266EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AFBDB719655066003266EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84AFBDC719655066003266EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84AFBDC819655066003266EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84AFBDCA19655066003266EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ChikuwaWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84AFBDCB19655066003266EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ChikuwaWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84AFBDCD19655066003266EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChikuwaWatch.app/ChikuwaWatch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChikuwaWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		84AFBDCE19655066003266EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChikuwaWatch.app/ChikuwaWatch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChikuwaWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84AFBDA619655066003266EB /* Build configuration list for PBXProject "ChikuwaWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AFBDC719655066003266EB /* Debug */,
+				84AFBDC819655066003266EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AFBDC919655066003266EB /* Build configuration list for PBXNativeTarget "ChikuwaWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AFBDCA19655066003266EB /* Debug */,
+				84AFBDCB19655066003266EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84AFBDCC19655066003266EB /* Build configuration list for PBXNativeTarget "ChikuwaWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AFBDCD19655066003266EB /* Debug */,
+				84AFBDCE19655066003266EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84AFBDA319655066003266EB /* Project object */;
+}
