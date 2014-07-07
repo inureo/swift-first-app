@@ -1,0 +1,67 @@
+TChikuwaWatch
+v7
+r1
+cCheck dependencies
+cCompileSwift normal i386 com.apple.xcode.tools.swift.compiler
+cDitto /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/DerivedSources/ChikuwaWatch-Swift.h /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/Objects-normal/i386/ChikuwaWatch-Swift.h
+cDitto /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Products/Debug-iphonesimulator/ChikuwaWatch.swiftmodule/i386.swiftmodule /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/Objects-normal/i386/ChikuwaWatch.swiftmodule
+
+CCheck dependencies
+r0
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf9db22685065b941^0bb32c685065b941^---0#1#1#--18"Check dependencies36"40C671C2-BE3C-4DCD-ABC1-5EBEBEC85141-
+
+CCompileAssetCatalog /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Products/Debug-iphonesimulator/ChikuwaWatch.app /Users/ryotezuka/Documents/Swift/ChikuwaWatch/ChikuwaWatch/Images.xcassets
+r0
+
+CCompileStoryboard /Users/ryotezuka/Documents/Swift/ChikuwaWatch/ChikuwaWatch/Base.lproj/Main.storyboard
+r0
+
+CCompileSwift normal i386 com.apple.xcode.tools.swift.compiler
+s426070120.178424
+e426070121.317586
+r1
+xCompileSwift
+xnormal
+xi386
+xcom.apple.xcode.tools.swift.compiler
+d/Users/ryotezuka/Documents/Swift/ChikuwaWatch/ChikuwaWatch/MasterViewController.swift
+d/Users/ryotezuka/Documents/Swift/ChikuwaWatch/ChikuwaWatch/AppDelegate.swift
+d/Users/ryotezuka/Documents/Swift/ChikuwaWatch/ChikuwaWatch/DetailViewController.swift
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Compile Swift source files61"CompileSwift normal i386 com.apple.xcode.tools.swift.compiler581c2e685065b941^344a57695065b941^---0#0#1#--2989"CompileSwift normal i386 com.apple.xcode.tools.swift.compiler    cd /Users/ryotezuka/Documents/Swift/ChikuwaWatch    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift -target i386-apple-ios8.0 -module-name ChikuwaWatch -O0 -sdk /Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk -g -module-cache-path /Users/ryotezuka/Library/Developer/Xcode/DerivedData/ModuleCache -I /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Products/Debug-iphonesimulator -F /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Products/Debug-iphonesimulator -c -j4 /Users/ryotezuka/Documents/Swift/ChikuwaWatch/ChikuwaWatch/DetailViewController.swift /Users/ryotezuka/Documents/Swift/ChikuwaWatch/ChikuwaWatch/MasterViewController.swift /Users/ryotezuka/Documents/Swift/ChikuwaWatch/ChikuwaWatch/AppDelegate.swift -output-file-map /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/Objects-normal/i386/ChikuwaWatch-OutputFileMap.json -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/Objects-normal/i386/ChikuwaWatch.swiftmodule -Xcc -iquote -Xcc /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/ChikuwaWatch-generated-files.hmap -Xcc -I/Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/ChikuwaWatch-own-target-headers.hmap -Xcc -I/Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/ChikuwaWatch-all-target-headers.hmap -Xcc -iquote -Xcc /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/ChikuwaWatch-project-headers.hmap -Xcc -I/Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Products/Debug-iphonesimulator/include -Xcc -I/Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Xcc -I/Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/DerivedSources/i386 -Xcc -I/Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/DerivedSources -Xcc -DDEBUG=1 -emit-objc-header -emit-objc-header-path /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/Objects-normal/i386/ChikuwaWatch-Swift.h36"FCE60D66-D59C-48C3-AA7C-CE0AAD9D5357-
+b754C8891-CFC1-44C6-880F-76A6DFBC9B09
+
+CCopySwiftLibs /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Products/Debug-iphonesimulator/ChikuwaWatch.app
+r0
+
+CDitto /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/DerivedSources/ChikuwaWatch-Swift.h /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/Objects-normal/i386/ChikuwaWatch-Swift.h
+s426070121.319187
+e426070121.327489
+r1
+xDitto
+x/Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/DerivedSources/ChikuwaWatch-Swift.h
+x/Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/Objects-normal/i386/ChikuwaWatch-Swift.h
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection166"Copy /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/DerivedSources/ChikuwaWatch-Swift.h242"Ditto Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/DerivedSources/ChikuwaWatch-Swift.h Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/Objects-normal/i386/ChikuwaWatch-Swift.he3c651695065b941^005257695065b941^---0#0#1#-19%DVTDocumentLocation2@168"file:///Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/DerivedSources/ChikuwaWatch-Swift.h00343c54ddffdf42^859"Ditto Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/DerivedSources/ChikuwaWatch-Swift.h Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/Objects-normal/i386/ChikuwaWatch-Swift.h    cd /Users/ryotezuka/Documents/Swift/ChikuwaWatch    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/ditto -rsrc /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/Objects-normal/i386/ChikuwaWatch-Swift.h /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/DerivedSources/ChikuwaWatch-Swift.h36"D2A4B030-B981-45F2-BF81-EFCCE9AAD3CA-
+b754C8891-CFC1-44C6-880F-76A6DFBC9B09
+
+CDitto /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Products/Debug-iphonesimulator/ChikuwaWatch.swiftmodule/i386.swiftmodule /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/Objects-normal/i386/ChikuwaWatch.swiftmodule
+s426070121.327996
+e426070121.335250
+r1
+xDitto
+x/Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Products/Debug-iphonesimulator/ChikuwaWatch.swiftmodule/i386.swiftmodule
+x/Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/Objects-normal/i386/ChikuwaWatch.swiftmodule
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection16"Copy swiftmodule209"Ditto Build/Products/Debug-iphonesimulator/ChikuwaWatch.swiftmodule/i386.swiftmodule Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/Objects-normal/i386/ChikuwaWatch.swiftmodule2c0d54695065b941^215657695065b941^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Products/Debug-iphonesimulator/ChikuwaWatch.swiftmodule/i386.swiftmodule00343c54ddffdf42^793"Ditto Build/Products/Debug-iphonesimulator/ChikuwaWatch.swiftmodule/i386.swiftmodule Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/Objects-normal/i386/ChikuwaWatch.swiftmodule    cd /Users/ryotezuka/Documents/Swift/ChikuwaWatch    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/ditto -rsrc /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Intermediates/ChikuwaWatch.build/Debug-iphonesimulator/ChikuwaWatch.build/Objects-normal/i386/ChikuwaWatch.swiftmodule /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Products/Debug-iphonesimulator/ChikuwaWatch.swiftmodule/i386.swiftmodule36"78A9AF56-AB48-49BB-B0A0-6BD6F4951E98-
+b754C8891-CFC1-44C6-880F-76A6DFBC9B09
+
+CGenerateDSYMFile /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Products/Debug-iphonesimulator/ChikuwaWatch.app.dSYM /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Products/Debug-iphonesimulator/ChikuwaWatch.app/ChikuwaWatch
+r0
+
+CLd /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Products/Debug-iphonesimulator/ChikuwaWatch.app/ChikuwaWatch normal i386
+r0
+
+CProcessInfoPlistFile /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Products/Debug-iphonesimulator/ChikuwaWatch.app/Info.plist /Users/ryotezuka/Documents/Swift/ChikuwaWatch/ChikuwaWatch/Info.plist
+r0
+
+CTouch /Users/ryotezuka/Documents/Swift/ChikuwaWatch/Build/Products/Debug-iphonesimulator/ChikuwaWatch.app
+r0
+

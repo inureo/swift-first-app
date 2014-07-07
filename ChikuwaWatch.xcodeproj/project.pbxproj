@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844FF7761966A6350094DF58 /* ChikuwaSightingDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844FF7751966A6350094DF58 /* ChikuwaSightingDataController.swift */; };
 		84AFBDB119655066003266EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBDB019655066003266EB /* AppDelegate.swift */; };
 		84AFBDB319655066003266EB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBDB219655066003266EB /* MasterViewController.swift */; };
 		84AFBDB519655066003266EB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBDB419655066003266EB /* DetailViewController.swift */; };
 		84AFBDB819655066003266EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AFBDB619655066003266EB /* Main.storyboard */; };
 		84AFBDBA19655066003266EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AFBDB919655066003266EB /* Images.xcassets */; };
 		84AFBDC619655066003266EB /* ChikuwaWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBDC519655066003266EB /* ChikuwaWatchTests.swift */; };
+		84AFBDD019655161003266EB /* ChikuwaSighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFBDCF19655161003266EB /* ChikuwaSighting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		844FF7751966A6350094DF58 /* ChikuwaSightingDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChikuwaSightingDataController.swift; sourceTree = "<group>"; };
 		84AFBDAB19655066003266EB /* ChikuwaWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChikuwaWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AFBDAF19655066003266EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84AFBDB019655066003266EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		84AFBDBF19655066003266EB /* ChikuwaWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChikuwaWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AFBDC419655066003266EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84AFBDC519655066003266EB /* ChikuwaWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChikuwaWatchTests.swift; sourceTree = "<group>"; };
+		84AFBDCF19655161003266EB /* ChikuwaSighting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChikuwaSighting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				84AFBDB219655066003266EB /* MasterViewController.swift */,
 				84AFBDB419655066003266EB /* DetailViewController.swift */,
 				84AFBDB619655066003266EB /* Main.storyboard */,
+				84AFBDCF19655161003266EB /* ChikuwaSighting.swift */,
+				844FF7751966A6350094DF58 /* ChikuwaSightingDataController.swift */,
 				84AFBDB919655066003266EB /* Images.xcassets */,
 				84AFBDAE19655066003266EB /* Supporting Files */,
 			);
@@ -212,6 +218,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84AFBDB519655066003266EB /* DetailViewController.swift in Sources */,
+				844FF7761966A6350094DF58 /* ChikuwaSightingDataController.swift in Sources */,
+				84AFBDD019655161003266EB /* ChikuwaSighting.swift in Sources */,
 				84AFBDB319655066003266EB /* MasterViewController.swift in Sources */,
 				84AFBDB119655066003266EB /* AppDelegate.swift in Sources */,
 			);
@@ -401,6 +409,7 @@
 				84AFBDCB19655066003266EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84AFBDCC19655066003266EB /* Build configuration list for PBXNativeTarget "ChikuwaWatchTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +418,7 @@
 				84AFBDCE19655066003266EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
