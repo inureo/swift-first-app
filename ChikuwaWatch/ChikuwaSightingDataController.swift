@@ -9,7 +9,8 @@
 import UIKit
 
 class ChikuwaSightingDataController: NSObject {
-    var masterChikuwaSightingList = []
+    // 何が入るかあらかじめ指定してあげる
+    var masterChikuwaSightingList: Array<ChikuwaSighting> = Array<ChikuwaSighting>()
 
     init() {
         super.init()
@@ -17,20 +18,18 @@ class ChikuwaSightingDataController: NSObject {
     }
     
     func countOfList() -> Int {
-        return masterChikuwaSightingList.count
+        masterChikuwaSightingList.count
     }
     
     func objectIntListAtIndex(theIndex: Int) -> ChikuwaSighting {
-        return masterChikuwaSightingList[theIndex] as ChikuwaSighting
+        masterChikuwaSightingList[theIndex];
     }
     
     func addChikuwaSightingWithSighting(sighting: ChikuwaSighting) {
-        
+        masterChikuwaSightingList += sighting
     }
     
     func initializeDefaultDataList() {
-        var sightingList = []
-        self.masterChikuwaSightingList = sightingList
         var sighting: ChikuwaSighting
         var today = NSDate()
         sighting = ChikuwaSighting(name: "naruto", location: "ラーメン屋", date: today)
