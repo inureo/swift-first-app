@@ -6,17 +6,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChikuwaWatch/ChikuwaSightingDataController.swift"
-            timestampString = "426157799.114092"
+            timestampString = "426418207.808814"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
             landmarkName = "ChikuwaSightingDataController"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChikuwaWatch.ChikuwaSightingDataController.masterChikuwaSightingList.setter : Swift.Array&lt;ChikuwaWatch.ChikuwaSighting&gt;"
+                  moduleName = "ChikuwaWatch"
+                  urlString = "file:///Users/ryotezuka/Documents/Swift/ChikuwaWatch/ChikuwaWatch/ChikuwaSightingDataController.swift"
+                  timestampString = "426506275.217265"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChikuwaWatch.ChikuwaSightingDataController.init (ChikuwaWatch.ChikuwaSightingDataController.Type)() -&gt; ChikuwaWatch.ChikuwaSightingDataController"
+                  moduleName = "ChikuwaWatch"
+                  urlString = "file:///Users/ryotezuka/Documents/Swift/ChikuwaWatch/ChikuwaWatch/ChikuwaSightingDataController.swift"
+                  timestampString = "426506275.217462"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "25">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

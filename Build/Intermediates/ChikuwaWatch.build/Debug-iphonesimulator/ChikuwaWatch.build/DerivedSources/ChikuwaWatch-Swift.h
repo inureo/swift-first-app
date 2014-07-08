@@ -105,17 +105,14 @@ SWIFT_CLASS("_TtC12ChikuwaWatch20DetailViewController")
 
 SWIFT_CLASS("_TtC12ChikuwaWatch20MasterViewController")
 @interface MasterViewController : UITableViewController
-@property (nonatomic) NSMutableArray * objects;
+@property (nonatomic) ChikuwaSightingDataController * dataController;
 - (void)awakeFromNib;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
-- (void)insertNewObject:(id)sender;
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender;
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView;
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath;
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath;
 - (instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (instancetype)initWithCoder:(NSCoder *)aDecoder OBJC_DESIGNATED_INITIALIZER;

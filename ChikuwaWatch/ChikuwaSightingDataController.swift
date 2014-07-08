@@ -14,24 +14,25 @@ class ChikuwaSightingDataController: NSObject {
 
     init() {
         super.init()
-        initializeDefaultDataList()
+        self.initializeDefaultDataList()
     }
     
     func countOfList() -> Int {
-        masterChikuwaSightingList.count
+        return self.masterChikuwaSightingList.count
     }
     
     func objectIntListAtIndex(theIndex: Int) -> ChikuwaSighting {
-        masterChikuwaSightingList[theIndex];
+        return self.masterChikuwaSightingList[theIndex];
     }
     
     func addChikuwaSightingWithSighting(sighting: ChikuwaSighting) {
-        masterChikuwaSightingList += sighting
+        self.masterChikuwaSightingList += sighting
     }
     
     func initializeDefaultDataList() {
         var sighting: ChikuwaSighting
         var today = NSDate()
         sighting = ChikuwaSighting(name: "naruto", location: "ラーメン屋", date: today)
+        self.addChikuwaSightingWithSighting(sighting)
     }
 }
