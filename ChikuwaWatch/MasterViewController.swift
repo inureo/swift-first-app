@@ -64,7 +64,8 @@ class MasterViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cellIdentifier: String     = "BirdSightingCell"
+        // StoryBoardのデフォルトセルのidentifierを指定
+        let cellIdentifier: String     = "ChikuwaSightingCell"
         let cell: UITableViewCell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as UITableViewCell
         let formatter = NSDateFormatter()
         
